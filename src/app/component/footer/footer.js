@@ -9,7 +9,7 @@ import { FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 const Footer = () => {
   return (
-    <div className="footer absolute bottom-0 w-full h-80 bg-navBar ">
+    <div className="footer  bottom-0 w-full h-80 bg-navBar ">
       <div className='container mx-auto px-0 h-full'>
         <div className='flex justify-between h-auto py-8 px-5' >
           <p className='text-white  text-sm'>JM Store © 2022 - 2024 An affiliate <br /> with Pranav Karmacharya</p>
