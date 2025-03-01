@@ -16,13 +16,6 @@ export default function Home() {
     "/images/carouselImages/rdr2.jpg",
     "/images/carouselImages/Wukong.jpg",
   ];
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setInn((prevInn) => (prevInn + 1) % carouselImages.length);
-    }, 3000); // Change slide every 3 seconds
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div>
@@ -46,7 +39,7 @@ export default function Home() {
                   <Card>
                     <CardContent className="flex h-[250px] items-center justify-center p-6">
                       <Image
-                        src={carouselImages[inn]}
+                        src={carouselImages[index]}
                         height={5000}
                         width={5000}
                         alt="apple"
