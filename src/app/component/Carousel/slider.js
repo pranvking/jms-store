@@ -18,7 +18,7 @@ export const Slider = () => {
     <div className="embla ">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          <div className="embla__slide bg-white">Slide 1</div>
+          <div className="embla__slide bg-slate-100">Slide 1</div>
           <div className="embla__slide bg-white">Slide 2</div>
           <div className="embla__slide bg-white">Slide 3</div>
           <div className="embla__slide bg-white">Slide 3</div>

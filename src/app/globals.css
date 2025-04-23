@@ -1,16 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* this is caurousal */
 .embla__viewport {
     overflow: hidden;
   }
-  .embla__container {
+  .embla__container1 {
     display: flex;
    
   }
-  .embla__slide {
+  .embla__slide1 {
     flex: 0 0 100%;
     min-width: 0;
     background-color:#1111;
+  }
+  /* this is slider css */
+  .carousel-wrapper {
+    max-width: 1200px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+  }
+   .embla__container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 30%; 
+    height: 200px;
+  }
+  .embla__slide {
+    flex:20%;
+    min-width: 0;
+  }
+  @media (min-width: 768px) {
+    .embla__slide {
+      flex: 0 0 10%; 
+    }
+  }
+  .embla__slide {
+    margin-right:auto; 
+  }
+  @media (min-width: 768px) {
+    .embla__slide {
+      margin-right: 10px; 
+    }
   }
   
