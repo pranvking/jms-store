@@ -1,5 +1,6 @@
 "use client";
-import Carousel from "./component/Carousel/carousel";
+import PalpasaCarousel from "./component/Carousel/slider";
+
 export default function Home() {
   return (
     <div>
@@ -9,10 +10,9 @@ export default function Home() {
         <h3>News</h3>
       </div>
       <div>
-        <Carousel />
+        <PalpasaCarousel />
       </div>
       <div>
-        
       </div>
     </div>
   );
