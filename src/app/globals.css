@@ -16,21 +16,20 @@
   }
   /* this is slider css */
   .carousel-wrapper {
-    max-width: 1200px;
+    max-width: 1100px;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: aliceblue;
-  }
+    }
    .embla__container {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 30%; 
-    height: 200px;
+    grid-auto-columns: 25%; 
+    height: 275px;
   }
   .embla__slide {
-    flex:20%;
+    flex:30%;
     min-width: 0;
   }
   @media (min-width: 768px) {
