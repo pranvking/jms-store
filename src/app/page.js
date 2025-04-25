@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import EmblaCarousel from "./component/Carousel/carousel";
 import EmblaCarousel2 from "./component/Carousel/carousel2";
 import { GameSlider } from "./component/Carousel/gameSlider";
@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
       <div className="flex text-white gap-10 pl-[138px] py-2">
-        <h3>Discovery</h3>
-        <h3>Browse</h3>
-        <h3>News</h3>
+        <Link href="/discovery">Discovery</Link>
+        <Link href="/browser">Browser</Link>
+        <Link href="/news">News</Link>
       </div>
       <div className="flex">
         <EmblaCarousel />
