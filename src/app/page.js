@@ -1,20 +1,15 @@
 "use client";
-<<<<<<< HEAD
 
-import Carousel from "@/component/Carousel/carousel";
-=======
 import Link from "next/link";
 import EmblaCarousel from "./component/Carousel/carousel";
 import EmblaCarousel2 from "./component/Carousel/carousel2";
 import { GameSlider } from "./component/Carousel/gameSlider";
 import GiftCardSlider from "./component/Carousel/giftCardSlider";
->>>>>>> e0e48946a3e8f9273d1e5fb40444cdc46b7ab493
 
 export default function Home() {
   return (
     <div>
       <div className="flex text-white gap-10 pl-[138px] py-2">
-<<<<<<< HEAD
         {/* <h3>Discovery</h3>
         <h3>Browse</h3>
         <h3>News</h3> */}
@@ -22,8 +17,6 @@ export default function Home() {
       <div>
       </div>
       <div>
-        
-=======
         <Link href="/discovery">Discovery</Link>
         <Link href="/browser">Browser</Link>
         <Link href="/news">News</Link>
@@ -39,7 +32,7 @@ export default function Home() {
         <GameSlider></GameSlider>
       </div>
       <div>
->>>>>>> e0e48946a3e8f9273d1e5fb40444cdc46b7ab493
+
       </div>
     </div>
   );
