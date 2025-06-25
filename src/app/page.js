@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <div>
       </div>
-      <div>
+      <div class="flex text-white gap-10 pl-[138px] py-2 ml-6 mt-7 mb-7">
         <Link href="/discovery">Discovery</Link>
         <Link href="/browser">Browser</Link>
         <Link href="/news">News</Link>

@@ -8,7 +8,7 @@ export default function EmblaCarousel2() {
   const [emblaRef,emblaApi] = useEmblaCarousel2({loop:true }, [Autoplay()])
   return (
     <div className='embla'>
-      <div className="embla__viewport  w-96 h-80  mt-7 ml-5" ref={emblaRef}>
+      <div className="embla__viewport  w-96 h-80  mt-7 ml-5 mr-28" ref={emblaRef}>
         <div className="embla__container1">
           <div className="embla__slide1">
             <img src="./images/carouselLogo/fifa_logo.jpg" className='h-32 w-96 rounded-3xl'></img>

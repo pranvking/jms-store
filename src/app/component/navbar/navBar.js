@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import Signin from "@/component/navBar/signin"
-import Search from "@/component/navBar/searchBar";
+import Signin from "./signin";
+import Search from "./searchBar";
 const Navbar = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const Navbar = () => {
                 <img src="./images/logo.png" className="h-10 w-30 rounded-full"></img>
                 <Search />
                 <AiOutlineShoppingCart className="h-7 w-7 text-cart   right-40 absolute "/>
-                <Signin className="fixed right-0 left-0"/>
+                <Signin />
             </div>
         </div>
       </div>
