@@ -3,6 +3,7 @@ import React, { useCallback } from 'react'
 
 import useEmblaCarousel2 from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
+import Link from 'next/link'
 
 export default function EmblaCarousel2() {
   const [emblaRef,emblaApi] = useEmblaCarousel2({loop:true }, [Autoplay()])
@@ -16,7 +17,7 @@ export default function EmblaCarousel2() {
                 A one-of-a-kind experience that takes football to places it’s never been before.
                   Experience WHAT THE FC now in EA SPORTS FC™ 24.</p>
             <div className='flex'>
-            <img src="./images/carouselLogo/Buynow.png" className='h-12 w-30 rounded-3xl mt-6 ml-2'></img>
+            <Link href="/"><img src="./images/carouselLogo/Buynow.png" className='h-12 w-30 rounded-3xl mt-6 ml-2'></img></Link> 
             <img src="./images/carouselLogo/Wishlist.png" className='h-12 w-30 rounded-3xl mt-7 m-5 '></img>
             </div>
           </div>

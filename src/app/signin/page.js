@@ -13,7 +13,7 @@ const LoginPage = () => {
   const [error, setError] = useState('');
   const router = useRouter();
 const comehere =() => {
-  router.push('/hide');
+  router.push('/homea');  
 };
 
   return (
