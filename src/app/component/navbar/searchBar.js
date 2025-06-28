@@ -19,7 +19,7 @@ export default function Search() {
       price: "9500.00",
     },
     "valorant": {
-      img: "./images/sliderImages/valorant.jpg",
+      img: "./images/sliderImages/valorant.png",
       name: "Valorant",
       price: "8700.00",
     },

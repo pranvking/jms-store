@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   const pathname = usePathname();
 
   // Hide Navbar only on home page "/"
-  const hideNavbar = pathname === "/homea" || pathname === "/profile" ||pathname==="/purchaseMenu";
+  const hideNavbar = pathname === "/homea" || pathname === "/profile" ||pathname==="/purchaseMenu"||pathname==="/cart";
   const hideFooter = pathname === "";
   return (
     <html lang="en">
